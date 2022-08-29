@@ -1,0 +1,114 @@
+body{
+    background-color: #161616;
+}
+a{
+    text-decoration: none !important;
+    color:white;
+    }
+    
+.navbar{
+    border-bottom: 1px solid gray;
+}
+a:hover{
+    color:#198754 !important;
+    transform: scale(1.1) !important;
+}
+.userlogin{
+    color:white!important;
+}
+.rowfirst{
+    border-bottom: 1px solid gray;
+}
+.rowsecond{
+    border-bottom: 1px solid gray;
+}
+.rowtitle{
+    color:#198754 !important;
+}
+.card{
+    background: transparent !important;
+    border: 1px solid gray !important;
+    max-height: 450px;
+    overflow: hidden !important;
+}
+.card-body{
+    color: white;
+}
+.topnews-img{
+    height: 350px;
+    filter: blur(2px);   
+    
+}
+.card-footer1{
+    border-top: 1px solid gray;
+}
+.cardgenre{
+    float:right;
+    border: 1px solid transparent;
+    border-radius: 20px 0px 0px 20px;
+    background-color:#8f3aff !important; 
+}
+.cardgenre a:hover{
+    color: white !important;
+    border-bottom: 1px solid;
+}
+.footer{
+    border-top: 1px solid gray;
+}
+
+/***** Login Start *****/
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 20%;
+    margin-top: 19%;
+    background: #282726;
+    border-radius: 4.5rem;
+    padding: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #f05837;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+/***** Login End *****/
