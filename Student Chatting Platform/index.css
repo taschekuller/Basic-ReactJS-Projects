@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FCF8E8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.welcomeback{
+color: #B4CFB0;
+font-size: bold;
+}
+.logouttop{
+  color: #B4CFB0;
+  opacity:0.75;
+}
+.logouttop:hover{
+  transform: scale(1.1);
+  opacity:1;
+  font-size:bold;
+}
+/* LOGIN PAGE */
+.login{
+background-image: linear-gradient(to right, #94B49F,#B4CFB0, #ECB390);
+font-family: Garamond;
+}
+.loginframe{
+  background-color: transparent;
+}
+.loginsubmit:hover{
+  transform: scale(1.1);
+  opacity:1;
+}
+.loginbutton:hover{
+  cursor: pointer;
+}
+.loginbutton{
+  font-family: Garamond;
+}
+
+
+/* GENERAL SCHEMA CSS */
+.lr1, .lr2, .lr3{
+  background: #ECB390;
+}
+.mr1, .rr1{
+  background:#94B49F; 
+}
+.mr2, .mr3,.rr3{
+  background: #B4CFB0;
+}
+/* LEFT COLUMN */
+.profilesvg{
+  color:white;
+  border-radius: 50px;
+  width: 50%;
+  height: 50%;
+}
+.profilesvg:hover{
+  transform: scale(1.2);
+  border-bottom: 1px solid #3B4371;
+  cursor:pointer;
+}
+
+.homesvg{
+  color:white;
+  border-radius: 50px;
+  width:50%;
+  
+}
+.homesvg:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #ffdde1;
+  cursor:pointer;
+}
+
+.messagesvg{
+  color:white;
+  border-radius: 50px;
+  width:50%;
+}
+.messagesvg:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #ffdde1;
+  cursor:pointer;
+}
+
+.notificationsvg{
+  color:white;
+  border-radius: 50px;
+  width:50%;
+}
+.notificationsvg:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #ffdde1;
+  cursor:pointer;
+}
+
+.settingsvg{
+  color:white;
+  border-radius: 50px;
+  width:50%;
+}
+.settingsvg:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #ffdde1;
+  cursor:pointer;
+}
+
+.logoutsvg{
+  color:white;
+  border-radius: 50px;
+  width:50%;
+}
+
+.logoutsvg:hover{
+  transform: scale(1.2);
+  border-bottom: 1px solid #3B4371;
+  cursor:pointer;
+}
+
+.searchfield{
+  width:90%;
+}
+
+.groupsection{
+  width:95%;
+}
+.group1:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.people1:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.people2:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.people3:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+.chatboxpic:hover{
+  transform: scale(1.15);
+  cursor:pointer;
+}
+.chatboxphone:hover{
+  transform: scale(1.15);
+  cursor:pointer;
+}
+.chatboxphone{
+  color:#FCF8E8;
+}
+.chatboxcamera:hover{
+  transform: scale(1.15);
+  cursor:pointer;
+}
+.chatboxcamera{
+  color:#FCF8E8;
+}
+.chatboxdots:hover{
+  transform: scale(1.15);
+  cursor:pointer;
+}
+.chatboxdots{
+  color:#FCF8E8;
+}
+.chatbox{
+  background: #FDF5E6;
+}
+.stranger{
+  background: #B4CFB0;
+  color:#faf7e9;
+}
+.user{
+  background: #ECB390;
+  color:#faf7e9;
+}
